@@ -23,8 +23,10 @@ const BlockAPI = gxs.BlockAPI
 const BusinessAPI = gxs.BusinessAPI
 
 async function test () {
-  let result = await BusinessAPI.GetNews() //获取新闻列表
-  console.log(result)
+  let news = await BusinessAPI.GetNews() //获取新闻列表
+  console.log(news)
+  let blockInfo = await BlockAPI.GetBlockHeight('4718752') //获取区块信息
+  console.log(blockInfo) 
 }
 
 test()
