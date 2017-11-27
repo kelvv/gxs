@@ -45,8 +45,7 @@ webHandler.Post = (url, form, cookie) => {
   })
 }
 
-webHandler.Get = (url, query, cookie) => {
-  console.log('Get Request:' + url)
+webHandler.Get = (url, query, isJson = true) => {
   return new Promise((resolve, reject) => {
     if (query) {
       url += `?query=${UrlEncode(query)}`
@@ -64,7 +63,11 @@ webHandler.Get = (url, query, cookie) => {
           }
 
           if (!error && /^2\d+/.test(response.statusCode.toString())) {
-            resolve(JSON.parse(body))
+            if (isJson) {
+              resolve(JSON.parse(body))
+            } else {
+              resolve(body)
+            }
           } else {
             reject(body)
           }

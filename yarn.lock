@@ -1280,6 +1280,10 @@ regex-cache@^0.4.2:
   dependencies:
     is-equal-shallow "^0.1.3"
 
+regexper.js@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/regexper.js/-/regexper.js-1.0.7.tgz#fcd45c7e0b750ed139be9039a0120d237333b7fe"
+
 regexpu-core@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/regexpu-core/download/regexpu-core-2.0.0.tgz#49d038837b8dcf8bfa5b9a42139938e6ea2ae240"
