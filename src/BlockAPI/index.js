@@ -13,7 +13,7 @@ module.exports = {
     return result
   },
   /**
-   * GetSupply 供应量查询
+   * GetBlockHeight 区块信息查询
    *
    * @params blockId 区块Id
    */
@@ -22,7 +22,7 @@ module.exports = {
     return result
   },
   /**
-   * GetSupply 交易查询
+   * GetTransaction 交易查询
    *
    * @params txId 交易Id
    */
@@ -31,7 +31,7 @@ module.exports = {
     return result
   },
   /**
-   * GetSupply 账号查询
+   * GetAccount 账号查询
    *
    * @params idOrName 账号的id或者名称
    */
