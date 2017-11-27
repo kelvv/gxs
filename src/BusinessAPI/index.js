@@ -7,7 +7,7 @@ const Regex = require('regexper.js')
 
 module.exports = {
   /**
-   * GetNews
+   * GetNews 获取新闻列表
    */
   GetNews: async () => {
     let result = []
