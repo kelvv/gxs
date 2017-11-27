@@ -35,7 +35,7 @@ test()
 
 约定: 数据均为JSON格式
 
-###BlockAPI
+### BlockAPI
 
 * GetSupply  获取供应量
     
@@ -102,7 +102,7 @@ test()
     
     ```
 
-###BusinessAPI
+### BusinessAPI
 
 * GetNews  获取新闻列表
     
