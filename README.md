@@ -18,7 +18,7 @@ yarn add gxs
 
 ## 使用
 ``` javascript
-var gxs = require('gxs');
+const gxs = require('gxs');
 const BlockAPI = gxs.BlockAPI
 const BusinessAPI = gxs.BusinessAPI
 
