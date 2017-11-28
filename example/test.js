@@ -8,7 +8,7 @@
 
 const BusinessAPI = require('../lib').BusinessAPI
 async function test () {
-  let result = await BusinessAPI.GetPartners()
+  let result = await BusinessAPI.GetNews()
   console.log(result)
 }
 
